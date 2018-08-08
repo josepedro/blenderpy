@@ -27,4 +27,5 @@ else
     # Install some custom requirements on Linux
     echo
 fi
+python3 -m pip show future-fstrings
 python3 setup.py install
