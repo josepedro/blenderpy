@@ -53,6 +53,7 @@ addons:
       - libx264-dev
       - libspnav-dev
 before_install:
+  - chmod +x ./.vscode/tasks/linux/dev_install.sh
   - chmod +x ./.travis/install.sh
 install:
   - ./.vscode/tasks/linux/dev_install.sh
